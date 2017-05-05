@@ -1,0 +1,15 @@
+# The humans responsible & colophon
+# humanstxt.org
+
+# TEAM
+  Developer: Steve Ottoz <so@dev.so>
+  Site: https://dev.so
+  Location: Zurich, Switzerland
+
+# THANKS
+  Team: motherhackerz.io
+
+# SITE
+  Project: ihatedrupal.club
+  Standard: HTML5, CSS3
+  Software: Atom, Git, NOT Drupal!!!
