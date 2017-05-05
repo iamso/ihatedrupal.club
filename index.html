@@ -65,40 +65,67 @@
       }
       body {
         background-color: #000;
+        color: #fff;
         font-family: 'Helvetica Neue', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+      }
+
+      main {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: space-between;
         align-content: center;
         align-items: center;
+        flex: 1 0 auto;
+        text-align: center;
       }
 
       h1 {
-        color: #fff;
         font-size: 15vw;
         font-weight: 700;
         letter-spacing: -0.04em;
         line-height: 1;
         padding: 2rem 1rem;
-        text-align: center;
       }
 
       h2,
       h3 {
-        color: #333;
-        font-size: 1rem;
-        font-weight: 700;
+        color: #444;
+        font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+        font-size: 1.5rem;
+        font-style: italic;
+        font-weight: 400;
         letter-spacing: -0.04em;
-        line-height: 1;
+        line-height: 1.1;
         padding: 1rem;
       }
 
+      p {
+        color: #999;
+        font-size: 0.875rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .addthis_inline_share_toolbox {
+        margin-bottom: 1rem;
+        min-height: 31px;
+      }
     </style>
   </head>
   <body>
-    <h2>I hate Drupal! I really do, from the bottom of my heart!</h2>
-    <h1>#ihatedrupal</h1>
-    <h3>Sincerely Steve Ottoz</h3>
+    <main>
+      <h2>I hate Drupal! I really do, from the bottom of my heart!</h2>
+      <h1>#ihatedrupal</h1>
+      <h3>Sincerely Steve Ottoz</h3>
+    </main>
+    <p>Feel my pain? Share it!</p>
+    <div class="addthis_inline_share_toolbox"></div>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-590cec1e138211c1"></script>
   </body>
 </html>
